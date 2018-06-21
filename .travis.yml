@@ -12,5 +12,6 @@ script:
 branches:
   only:
   - master
-  after_success:
+after_success:
   - codecov -t b051e1e4-03e9-4630-8bf9-52237449ed73 -X gcov
+
